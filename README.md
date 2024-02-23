@@ -22,11 +22,12 @@ Program to implement the simple linear regression model for predicting the marks
 Developed by: Hemakesh G
 RegisterNumber:  212223040064
 */
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df=pd.read_csv('/content/mldata.csv')
+df=pd.read_csv('/content/mldataset1.csv')
 df.head(10)
 
 plt.scatter(df['x'],df['y'])
@@ -57,6 +58,7 @@ plt.plot(x_train,lr.predict(x_train),color='blue')
 ```
 
 ## Output:
+![Screenshot 2024-02-23 113502](https://github.com/HEMAKESHG/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144870552/d557aa67-468c-4a91-9aec-c7cdb40beeff)
 
 
 
