@@ -57,6 +57,8 @@ plt.xlabel('x')
 plt.ylabel('y')
 plt.plot(x_train,lr.predict(x_train),color='blue')
 
+lr.coef_
+lr.intercept_
 ```
 
 ## Output:
